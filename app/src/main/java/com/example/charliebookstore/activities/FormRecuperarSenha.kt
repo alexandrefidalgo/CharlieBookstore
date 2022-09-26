@@ -1,17 +1,12 @@
 package com.example.charliebookstore.activities
 
-import android.content.Intent
-import android.os.Bundle
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
 import com.example.charliebookstore.R
 
-
-class MainActivity : AppCompatActivity() {
-
+class FormRecuperarSenha : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_form_recuperar_senha)
     }
-
 }

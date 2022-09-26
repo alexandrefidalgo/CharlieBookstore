@@ -4,12 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.charliebookstore.R
 
-class ActivityCadastrar : AppCompatActivity() {
-
+class PoliticasPrivacidade : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_cadastrar)
-
-
+        setContentView(R.layout.activity_politicas_privacidade)
     }
 }
