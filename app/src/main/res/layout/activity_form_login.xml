@@ -30,6 +30,7 @@
     <EditText
         android:id="@+id/edit_email"
         style="@style/Edit_Text"
+        android:textColor="@color/black"
         android:hint="Email"
         android:drawableRight="@drawable/ic_email"
         app:layout_constraintStart_toStartOf="@id/containerComponents"
@@ -40,6 +41,8 @@
     <EditText
         android:id="@+id/edit_senha"
         style="@style/Edit_Text"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
         android:hint="Senha"
         android:drawableRight="@drawable/ic_eye"
         app:layout_constraintStart_toStartOf="@id/containerComponents"
