@@ -4,12 +4,21 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Button
 import com.example.charliebookstore.R
 
-class FormLogin : AppCompatActivity() {
+class FormLogin : AppCompatActivity(){
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_form_login)
+
+        val btEntrar = findViewById<Button>(R.id.bt_entrar)
+
+        btEntrar.setOnClickListener {
+            val intent = Intent(this, TelaInicial::class.java)
+            startActivity(intent)
+        }
     }
     fun startFormCadastrar(view: View?) {
         val FormCadastrar = Intent(this, FormCadastrar::class.java)
@@ -23,5 +32,4 @@ class FormLogin : AppCompatActivity() {
         val PoliticasPrivacidade = Intent(this, PoliticasPrivacidade()::class.java)
         startActivity(PoliticasPrivacidade)
     }
-
 }
