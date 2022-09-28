@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.view.MenuItem
 import com.example.charliebookstore.R
 import com.example.charliebookstore.databinding.ActivityTelaInicialBinding
-import com.example.charliebookstore.fragments.RecentsFragment
+import com.example.charliebookstore.fragments.InicialFragment
 
 class TelaInicial : AppCompatActivity() {
     lateinit var binding: ActivityTelaInicialBinding
@@ -37,12 +37,11 @@ class TelaInicial : AppCompatActivity() {
             //Trata as opções de menu
 
             when(it.itemId) {
-                //Se licou no menu com ID "recentes"
+                //Se clicou no menu com ID "inicial"
                 R.id.recentes -> {
-                    //Cria uma nova instância do fragmento de artistas
-                    val frag = RecentsFragment()
-                    //Faz o gestor de fragmentos trocar o fragmento atualmente em exibição
-                    //pelo fragmento de artistas
+                    //Cria uma nova instância do fragmento de inicial
+                    val frag = InicialFragment()
+                    //Faz o gestor de fragmentos trocar o fragmento
                     supportFragmentManager.beginTransaction().replace(R.id.container, frag).commit()
                 }
             }

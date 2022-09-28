@@ -5,15 +5,14 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.charliebookstore.fragments.RecentsFragment
-import com.example.charliebookstore.databinding.FragmentRecentsBinding
+import com.example.charliebookstore.databinding.FragmentInicialBinding
 
-class RecentsFragment : Fragment() {
+class InicialFragment : Fragment() {
 
-    lateinit var binding: FragmentRecentsBinding
+    lateinit var binding: FragmentInicialBinding
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        binding = FragmentRecentsBinding.inflate(inflater)
+        binding = FragmentInicialBinding.inflate(inflater)
 
         return binding.root
     }

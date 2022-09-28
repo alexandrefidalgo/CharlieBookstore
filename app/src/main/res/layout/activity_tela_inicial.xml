@@ -12,7 +12,7 @@
 
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/container"
-            android:name="com.example.charliebookstore.fragments.RecentsFragment"
+            android:name="com.example.charliebookstore.fragments.InicialFragment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
