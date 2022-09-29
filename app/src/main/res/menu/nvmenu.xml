@@ -13,9 +13,9 @@
                     android:title="Recentes"
                     app:showAsAction="always" />
                 <item
-                    android:id="@+id/favoritadas"
+                    android:id="@+id/listaProduto"
                     android:icon="@drawable/favorite"
-                    android:title="Favoritos"
+                    android:title="Lista de Produtos"
                     app:showAsAction="always" />
             </group>
         </menu>
