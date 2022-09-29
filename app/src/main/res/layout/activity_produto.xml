@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cinza"
+    tools:context=".activities.Produto">
+
+    <View
+        android:id="@+id/container_img_descricao_produto"
+        style="@style/edit_desc_produto"
+        android:layout_width="380dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="272dp"
+        android:layout_height="224dp"
+        android:layout_marginTop="12dp"
+        android:contentDescription="TODO"
+        android:padding="3dp"
+        android:src="@drawable/harry_potter_e_a_pedra_filosofal"
+        app:layout_constraintEnd_toEndOf="@id/container_img_descricao_produto"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="@id/container_img_descricao_produto"
+        app:layout_constraintTop_toTopOf="@id/container_img_descricao_produto" />
+
+    <View
+        android:id="@+id/container_produto"
+        style="@style/edit_desc_produto"
+        android:layout_width="380dp"
+        android:layout_height="430dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/container_img_descricao_produto" />
+
+    <TextView
+        android:id="@+id/titulo_produto"
+        android:layout_width="344dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:text="Harry Potter e a Pedra Filosofal"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/container_produto"
+        app:layout_constraintStart_toStartOf="@id/container_produto"
+        app:layout_constraintTop_toTopOf="@id/container_produto" />
+
+
+    <RatingBar
+        android:id="@+id/ratinbar_satisfacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:progressTint="@color/dourado"
+        android:rating="4.5"
+        android:scaleX=".5"
+        android:scaleY=".5"
+        android:stepSize="0.5"
+        android:transformPivotX="0dp"
+        android:transformPivotY="0dp"
+        android:progressBackgroundTint="@color/cinza"
+        app:layout_constraintEnd_toEndOf="@+id/container_produto"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="@+id/container_produto"
+        app:layout_constraintTop_toBottomOf="@id/titulo_produto"
+
+
+        ></RatingBar>
+
+    <TextView
+        android:id="@+id/valor_produto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$ 24,90"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/container_produto"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="@+id/container_produto"
+        app:layout_constraintTop_toBottomOf="@id/ratinbar_satisfacao" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_comprar"
+        style="@style/Button_Produto"
+        android:layout_width="333dp"
+        android:layout_height="40dp"
+        android:text="Comprar"
+        android:textSize="20dp"
+        android:textCursorDrawable="@drawable/ic_baseline_shopping_basket_24"
+        app:layout_constraintEnd_toEndOf="@id/container_produto"
+        app:layout_constraintStart_toStartOf="@id/container_produto"
+        app:layout_constraintTop_toBottomOf="@id/valor_produto" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_decricao"
+        style="@style/Button_Desc_Produto"
+        android:layout_width="332dp"
+        android:layout_height="30dp"
+        android:text="     Descrição do Produto"
+        android:textCursorDrawable="@drawable/ic_baseline_shopping_basket_24"
+        android:textSize="10dp"
+        android:textAlignment="textStart"
+        app:layout_constraintEnd_toEndOf="@id/container_produto"
+        app:layout_constraintStart_toStartOf="@id/container_produto"
+        app:layout_constraintTop_toBottomOf="@id/bt_comprar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

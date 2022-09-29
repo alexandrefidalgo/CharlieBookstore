@@ -14,9 +14,34 @@
         android:theme="@style/Theme.CharlieBookstore"
         tools:targetApi="31">
         <activity
+            android:name=".activities.Produto"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.TelaDescricaoProduto"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".activities.TelaInicial"
             android:exported="true"
-            android:label="Charlie Bookstore" >
+            android:label="Charlie Bookstore">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

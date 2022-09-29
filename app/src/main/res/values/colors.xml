@@ -14,4 +14,8 @@
     <color name="brown_light">#BE8C66</color>
     <color name="sand_light">#E0C09A</color>
     <color name="sand_dark">#E4D1BA</color>
+
+    <color name="dourado">#f1af09</color>
+
+    <color name="cinza">#CCCCCC</color>
 </resources>
