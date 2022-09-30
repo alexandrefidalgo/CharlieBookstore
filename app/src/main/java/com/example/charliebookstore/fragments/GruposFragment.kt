@@ -22,10 +22,13 @@ class GruposFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         binding = FragmentGruposBinding.inflate(inflater)
 
-        //binding.bt_listaFragment.setOnClickListener {
-        //    val intent = Intent(context, ListaProdutosFragment::class.java)
-        //     startActivity(intent)
-        //  }
+        binding.btListaFragment.setOnClickListener {
+            //val intent = Intent(context, ListaProdutosFragment::class.java)
+             //startActivity(intent)
+
+            val frag = ListaProdutosFragment()
+            activity?.supportFragmentManager?.beginTransaction()?.replace(R.id.container, frag)?.commit()
+          }
 
         return binding.root
     }

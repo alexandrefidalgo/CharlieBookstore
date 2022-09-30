@@ -18,10 +18,13 @@ class ListaProdutosFragment : Fragment() {
 
         return binding.root
 
-        //binding.bt_produtoFragment.setOnClickListener {
-        //    val intent = Intent(context, ProdutoFragment::class.java)
-        //     startActivity(intent)
-        // }
+        //binding.btFragment.setOnClickListener {
+            //val intent = Intent(context, ProdutoFragment::class.java)
+            // startActivity(intent)
+
+           // val frag = ProdutoFragment()
+           // activity?.supportFragmentManager?.beginTransaction()?.replace(R.id.container, frag)?.commit()
+
+         }
 
     }
-}
