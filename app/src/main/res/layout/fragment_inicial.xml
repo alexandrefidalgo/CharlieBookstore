@@ -1,67 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.InicialFragment">
+    android:background="@color/sand_dark"
+    tools:context=".fragments.DescricaoFragment">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="332dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:src="@drawable/baner"
-        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+
+    <View
+        android:id="@+id/container_1"
+        style="@style/edit_desc_produto"
+        android:layout_width="363dp"
+        android:layout_height="634dp"
+        android:layout_marginTop="80dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
-        android:src="@drawable/baner1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_login"
+        style="@style/Button_Produto"
+        android:layout_width="156dp"
+        android:layout_height="35dp"
+        android:text="LOGIN"
+        android:textCursorDrawable="@drawable/ic_baseline_shopping_basket_24"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container_1"
+        app:layout_constraintEnd_toEndOf="@+id/container_1"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/container_1"
+        app:layout_constraintTop_toTopOf="@+id/container_1"
+        app:layout_constraintVertical_bias="0.195"
+        tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/textBaner"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
-        android:text="Coleção Futebol"
-        android:textColor="@color/blue"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_grupo"
+        style="@style/Button_Produto"
+        android:layout_width="156dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="32dp"
+        android:text="GRUPO"
+        android:textCursorDrawable="@drawable/ic_baseline_shopping_basket_24"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/container_1"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/container_1"
+        app:layout_constraintTop_toBottomOf="@+id/bt_login"
+        tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/textBaner1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ficção"
-        android:textColor="@color/blue"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.021"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/textBaner"
-        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

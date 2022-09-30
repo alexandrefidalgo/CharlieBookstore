@@ -12,11 +12,13 @@
         style="@style/edit_desc_produto"
         android:layout_width="354dp"
         android:layout_height="650dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="56dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/text_titulo_produto"
@@ -29,25 +31,27 @@
         android:textColorHint="@color/black"
         android:textSize="30dp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bt_listaFragment"
         app:layout_constraintEnd_toEndOf="@id/container_grupos"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@id/container_grupos"
-        app:layout_constraintTop_toTopOf="@id/container_grupos" />
+        app:layout_constraintTop_toTopOf="@id/container_grupos"
+        app:layout_constraintVertical_bias="0.0" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt_listaFragment"
         style="@style/Button_Produto"
-        android:background="@color/brown"
         android:layout_width="333dp"
         android:layout_height="40dp"
-        android:layout_marginTop="132dp"
+        android:background="@color/brown"
         android:text="Aventura"
         android:textCursorDrawable="@drawable/ic_baseline_shopping_basket_24"
         android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container_grupos"
         app:layout_constraintEnd_toEndOf="@id/container_grupos"
         app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="@id/container_grupos"
-        app:layout_constraintTop_toTopOf="@id/container_grupos" />
+        app:layout_constraintTop_toTopOf="@id/container_grupos"
+        app:layout_constraintVertical_bias="0.185" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
