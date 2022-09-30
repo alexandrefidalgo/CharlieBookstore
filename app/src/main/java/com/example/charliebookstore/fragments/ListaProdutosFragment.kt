@@ -1,5 +1,6 @@
 package com.example.charliebookstore.fragments
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -16,5 +17,11 @@ class ListaProdutosFragment : Fragment() {
         binding = FragmentListaProdutosBinding.inflate(inflater)
 
         return binding.root
+
+        //binding.bt_produtoFragment.setOnClickListener {
+        //    val intent = Intent(context, ProdutoFragment::class.java)
+        //     startActivity(intent)
+        // }
+
     }
 }

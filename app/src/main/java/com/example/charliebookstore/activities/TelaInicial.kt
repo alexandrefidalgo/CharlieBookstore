@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.MenuItem
 import com.example.charliebookstore.R
 import com.example.charliebookstore.databinding.ActivityTelaInicialBinding
+import com.example.charliebookstore.fragments.GruposFragment
 import com.example.charliebookstore.fragments.InicialFragment
 import com.example.charliebookstore.fragments.ListaProdutosFragment
 
@@ -39,7 +40,7 @@ class TelaInicial : AppCompatActivity() {
 
             when(it.itemId) {
                 //Se clicou no menu com ID "inicial"
-                R.id.recentes -> {
+                R.id.login -> {
                     //Cria uma nova instância do fragmento de inicial
                     val frag = InicialFragment()
                     //Faz o gestor de fragmentos trocar o fragmento
@@ -51,6 +52,16 @@ class TelaInicial : AppCompatActivity() {
                     //Faz o gestor de fragmentos trocar o fragmento
                     supportFragmentManager.beginTransaction().replace(R.id.container, frag).commit()
                 }
+
+                R.id.listaGrupo -> {
+                    //Cria uma nova instância do fragmento de lista
+                    val frag = GruposFragment()
+                    //Faz o gestor de fragmentos trocar o fragmento
+                    supportFragmentManager.beginTransaction().replace(R.id.container, frag).commit()
+                }
+
+
+
             }
             true
         }
