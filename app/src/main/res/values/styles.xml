@@ -2,7 +2,6 @@
 <resources>
 
     <style name="ContainerComponents">
-
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">250dp</item>
         <item name="android:background">@drawable/container_components</item>
@@ -65,6 +64,36 @@
     <style name="container_grupo">
         <item name="android:background">@drawable/container_grupo</item>
         <item name="android:padding">20dp</item>
+    </style>
+
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/orange</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.Toolbar" parent="ThemeOverlay.AppCompat.ActionBar" />
+
+
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorAccent">@color/orange</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
 

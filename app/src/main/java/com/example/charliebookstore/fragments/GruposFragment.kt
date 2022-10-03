@@ -1,18 +1,12 @@
 package com.example.charliebookstore.fragments
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import com.example.charliebookstore.R
-import com.example.charliebookstore.activities.TelaDescricaoProduto
-import com.example.charliebookstore.activities.TelaInicial
 import com.example.charliebookstore.databinding.FragmentGruposBinding
-import com.example.charliebookstore.databinding.FragmentListaProdutosBinding
-
 
 
 class GruposFragment : Fragment() {

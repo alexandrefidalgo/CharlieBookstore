@@ -10,4 +10,13 @@
     <string name="abrir_menu">Abrir Menu</string>
     <string name="fechar_menu">Fechar Menu</string>
 
+    <string name="tab_1">NOVIDADES</string>
+    <string name="tab_2">AVENTURA</string>
+    <string name="tab_3">DIDÁTICO</string>
+    <string name="tab_4">TERROR</string>
+    <string name="tab_5">HQ</string>
+
+
+
+
 </resources>

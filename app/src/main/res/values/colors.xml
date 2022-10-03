@@ -18,4 +18,8 @@
     <color name="dourado">#f1af09</color>
 
     <color name="cinza">#CCCCCC</color>
+
+    <color name="colorPrimary">#688ae2</color>
+    <color name="colorPrimaryDark">#688ae2</color>
+    <color name="colorAccent">#fb7b7b</color>
 </resources>

@@ -18,18 +18,18 @@ class InicialFragment : Fragment() {
         binding = FragmentInicialBinding.inflate(inflater)
 
 
-        binding.btLogin.setOnClickListener {
-            val intent = Intent(context, FormLogin::class.java)
-            startActivity(intent)
-        }
+        //binding.btLogin.setOnClickListener {
+        //    val intent = Intent(context, FormLogin::class.java)
+        //    startActivity(intent)
+        //}
 
-        binding.btGrupo.setOnClickListener {
-            //val intent = Intent(context, ListaProdutosFragment::class.java)
+        //binding.btGrupo.setOnClickListener {
+        //    //val intent = Intent(context, ListaProdutosFragment::class.java)
             //startActivity(intent)
 
-            val frag = GruposFragment()
-            activity?.supportFragmentManager?.beginTransaction()?.replace(R.id.container, frag)?.commit()
-        }
+        //    val frag = GruposFragment()
+        //    activity?.supportFragmentManager?.beginTransaction()?.replace(R.id.container, frag)?.commit()
+        //}
 
         return binding.root
     }
