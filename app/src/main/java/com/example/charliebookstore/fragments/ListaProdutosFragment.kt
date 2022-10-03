@@ -16,13 +16,13 @@ class ListaProdutosFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         binding = FragmentListaProdutosBinding.inflate(inflater)
 
-        binding.btAdicionar.setOnClickListener {
+        //binding.btAdicionar.setOnClickListener {
             //val intent = Intent(context, ListaProdutosFragment::class.java)
             //startActivity(intent)
 
-            val frag = ProdutoFragment()
-            activity?.supportFragmentManager?.beginTransaction()?.replace(R.id.container, frag)?.commit()
-        }
+        //    val frag = ProdutoFragment()
+        //     activity?.supportFragmentManager?.beginTransaction()?.replace(R.id.container, frag)?.commit()
+        //}
 
         return binding.root
     }

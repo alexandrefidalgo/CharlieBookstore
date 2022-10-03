@@ -1,66 +1,353 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cinza"
-    tools:context=".fragments.DescricaoFragment">
+    android:background="@color/sand_dark"
+    tools:context=".fragments.InicialFragment">
 
 
-    <View
-        android:id="@+id/container_2"
-        style="@style/edit_desc_produto"
-        android:layout_width="344dp"
-        android:layout_height="185dp"
-        android:layout_marginTop="100dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="109dp"
-        android:layout_height="161dp"
-        app:layout_constraintBottom_toBottomOf="@+id/container_2"
-        app:layout_constraintEnd_toEndOf="@id/container_2"
-        app:layout_constraintHorizontal_bias="0.046"
-        app:layout_constraintStart_toStartOf="@id/container_2"
-        app:layout_constraintTop_toTopOf="@+id/container_2"
-        app:srcCompat="@drawable/harry_potter_e_a_pedra_filosofal"
-        tools:ignore="MissingConstraints" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/txt_t_Produto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Harry potter e a Pedra Filosofal"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="@+id/container_2"
-        app:layout_constraintEnd_toEndOf="@id/container_2"
-        app:layout_constraintHorizontal_bias="0.906"
-        app:layout_constraintStart_toStartOf="@id/container_2"
-        app:layout_constraintTop_toTopOf="@+id/container_2"
-        app:layout_constraintVertical_bias="0.072"
-        tools:ignore="MissingConstraints" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/bt_adicionar"
-        style="@style/Button_Produto"
-        android:layout_width="156dp"
-        android:layout_height="35dp"
-        android:text="Adicionar"
-        android:textCursorDrawable="@drawable/ic_baseline_shopping_basket_24"
-        android:textSize="10dp"
-        app:layout_constraintBottom_toBottomOf="@+id/container_2"
-        app:layout_constraintEnd_toEndOf="@id/container_2"
-        app:layout_constraintHorizontal_bias="0.845"
-        app:layout_constraintStart_toStartOf="@id/container_2"
-        app:layout_constraintTop_toTopOf="@+id/container_2"
-        app:layout_constraintVertical_bias="0.906"
-        tools:ignore="MissingConstraints" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+                <com.google.android.material.tabs.TabLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:tabBackground="@color/brown"
+                    app:tabIndicatorColor="@color/white"
+                    app:tabTextColor="@color/white"
+                    app:tabMode="scrollable">
+
+                    <com.google.android.material.tabs.TabItem
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tab_1"
+                        />
+
+                    <com.google.android.material.tabs.TabItem
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tab_2"
+                        />
+
+                    <com.google.android.material.tabs.TabItem
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tab_3"
+                        />
+
+                    <com.google.android.material.tabs.TabItem
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tab_4"
+                        />
+
+                    <com.google.android.material.tabs.TabItem
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tab_5"
+                        />
+
+                </com.google.android.material.tabs.TabLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:fontFamily="@font/calibri"
+                    android:padding="8dp"
+                    android:textStyle="bold"
+                    android:text="Novidades"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingBottom="64dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:weightSum="100"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/card1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="8dp"
+                            android:layout_weight="50"
+                            app:cardCornerRadius="16dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <!-- Media -->
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="250dp"
+                                    app:srcCompat="@drawable/harry_potter_e_a_pedra_filosofal"
+                                    android:scaleType="centerCrop"
+                                    android:contentDescription="@string/content_description_media"
+                                    />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:padding="1dp">
+
+                                    <!-- Title, secondary and supporting text -->
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/title"
+                                        android:textSize="15dp"
+                                        android:paddingLeft="2dp"
+                                        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="@string/secondary_text"
+                                        android:textSize="20dp"
+                                        android:textColorHint="@color/black"
+                                        android:textAppearance="?attr/textAppearanceBody2"
+                                        android:textColor="?android:attr/textColorSecondary"
+                                        />
+
+
+                                </LinearLayout>
+
+                                <!-- Buttons -->
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="8dp"
+                                    android:orientation="horizontal">
+
+                                    <com.google.android.material.button.MaterialButton
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginEnd="8dp"
+                                        app:cornerRadius="20dp"
+                                        android:backgroundTint="@color/orange"
+                                        android:textColor="@color/white"
+                                        android:text="@string/action_1"
+                                        style="@style/Widget.MaterialComponents.Button.TextButton"
+
+                                        />
+
+                                    <com.google.android.material.button.MaterialButton
+                                        style="?attr/borderlessButtonStyle"
+                                        android:layout_width="48dp"
+                                        android:layout_height="wrap_content"
+                                        android:drawableRight="@drawable/favorite"
+                                        app:cornerRadius="20dp" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </com.google.android.material.card.MaterialCardView>
+
+
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/card2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="8dp"
+                            android:layout_weight="50"
+                            app:cardCornerRadius="16dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <!-- Media -->
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="250dp"
+                                    app:srcCompat="@drawable/hobbit"
+                                    android:scaleType="centerCrop"
+                                    android:contentDescription="@string/content_description_media"
+                                    />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:padding="1dp">
+
+                                    <!-- Title, secondary and supporting text -->
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Hobbit"
+                                        android:textSize="15dp"
+                                        android:paddingLeft="2dp"
+                                        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="R$ 50,00"
+                                        android:textSize="20dp"
+                                        android:textColorHint="@color/black"
+                                        android:textAppearance="?attr/textAppearanceBody2"
+                                        android:textColor="?android:attr/textColorSecondary"
+                                        />
+
+
+                                </LinearLayout>
+
+                                <!-- Buttons -->
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="8dp"
+                                    android:orientation="horizontal">
+
+                                    <com.google.android.material.button.MaterialButton
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginEnd="8dp"
+                                        app:cornerRadius="20dp"
+                                        android:backgroundTint="@color/orange"
+                                        android:textColor="@color/white"
+                                        android:text="@string/action_1"
+                                        style="@style/Widget.MaterialComponents.Button.TextButton"
+
+                                        />
+
+                                    <com.google.android.material.button.MaterialButton
+                                        style="?attr/borderlessButtonStyle"
+                                        android:layout_width="48dp"
+                                        android:layout_height="wrap_content"
+                                        android:drawableRight="@drawable/favorite"
+                                        app:cornerRadius="20dp" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </com.google.android.material.card.MaterialCardView>
+
+
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:weightSum="100">
+
+
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/carrinho"
+            app:backgroundTint="@color/blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="24dp"
+            android:src="@drawable/ic_shopping_cart_white_24dp"
+            app:fabSize="normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/brown"
+            android:elevation="4dp"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_home_gray_24dp" />
+
+                <View
+                    android:layout_width="84dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/person_linear_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_person_gray_24dp" />
+
+                <View
+                    android:layout_width="84dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -24,8 +24,8 @@ class InicialFragment : Fragment() {
         //}
 
         //binding.btGrupo.setOnClickListener {
-        //    //val intent = Intent(context, ListaProdutosFragment::class.java)
-            //startActivity(intent)
+        //val intent = Intent(context, ListaProdutosFragment::class.java)
+        //startActivity(intent)
 
         //    val frag = GruposFragment()
         //    activity?.supportFragmentManager?.beginTransaction()?.replace(R.id.container, frag)?.commit()

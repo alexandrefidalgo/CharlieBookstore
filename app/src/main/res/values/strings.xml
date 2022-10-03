@@ -17,6 +17,12 @@
     <string name="tab_5">HQ</string>
 
 
+    <string name="content_description_media"></string>
+    <string name="title">HARRY POTTER</string>
+    <string name="secondary_text">R$ 24,00</string>
+    <string name="supporting_text">COMPRAR</string>
+    <string name="action_1">COMPRAR</string>
+    <string name="action_2">Favoritos</string>
 
 
 </resources>
