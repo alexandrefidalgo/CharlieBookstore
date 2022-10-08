@@ -126,7 +126,8 @@
                                         android:layout_width="48dp"
                                         android:layout_height="wrap_content"
                                         android:drawableRight="@drawable/favorite"
-                                        app:cornerRadius="20dp" />
+                                        app:cornerRadius="20dp"
+                                        tools:ignore="SpeakableTextPresentCheck" />
                                 </LinearLayout>
 
                             </LinearLayout>
@@ -210,7 +211,8 @@
                                         android:layout_width="48dp"
                                         android:layout_height="wrap_content"
                                         android:drawableRight="@drawable/favorite"
-                                        app:cornerRadius="20dp" />
+                                        app:cornerRadius="20dp"
+                                        tools:ignore="SpeakableTextPresentCheck" />
                                 </LinearLayout>
 
                             </LinearLayout>

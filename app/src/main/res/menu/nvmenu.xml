@@ -22,13 +22,15 @@
             <group android:checkableBehavior="single">
                 <item
                     android:id="@+id/listaGrupo"
-                    android:icon="@drawable/person"
-                    android:title="Grupos" />
+                    android:icon="@drawable/ic_category"
+                    android:title="Categorias" />
+
                 <item
                     android:id="@+id/listaProduto"
                     android:icon="@drawable/favorite"
                     android:title="Lista de Produtos"
                     app:showAsAction="always" />
+
             </group>
         </menu>
     </item>

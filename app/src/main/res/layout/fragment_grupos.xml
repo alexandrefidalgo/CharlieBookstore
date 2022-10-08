@@ -1,66 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.GruposFragment"
-    android:background="@color/sand_dark">
-
-    <View
-        android:id="@+id/container_grupos"
-        style="@style/edit_desc_produto"
-        android:layout_width="354dp"
-        android:layout_height="650dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.617"
-        tools:ignore="MissingConstraints" />
-
-    <ScrollView
-        android:layout_width="337dp"
-        android:layout_height="529dp"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="162dp"
-        tools:ignore="MissingConstraints">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/bt_lista"
-                style="@style/Button_Produto"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:background="@color/brown"
-                android:text="Aventura"
-                android:textCursorDrawable="@drawable/ic_baseline_shopping_basket_24"
-                android:textSize="20dp"
-                tools:ignore="TouchTargetSizeCheck" />
-
-        </LinearLayout>
-    </ScrollView>
+    android:background="@color/sand_dark"
+    tools:context=".fragments.GruposFragment">
 
     <TextView
-        android:id="@+id/text_titulo_produto"
-        android:layout_width="350dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="64dp"
-        android:text="Categoria"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black"
-        android:textSize="30dp"
+        android:id="@+id/categorias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Categorias"
+        android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@id/container_grupos"
-        app:layout_constraintStart_toStartOf="@id/container_grupos"
-        app:layout_constraintTop_toTopOf="@id/container_grupos"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-
+    <Button
+        android:id="@+id/aventura"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="Aventura"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categorias" />
 </androidx.constraintlayout.widget.ConstraintLayout>

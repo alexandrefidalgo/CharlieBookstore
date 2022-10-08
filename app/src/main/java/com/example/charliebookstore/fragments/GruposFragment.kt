@@ -16,7 +16,7 @@ class GruposFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         binding = FragmentGruposBinding.inflate(inflater)
 
-        binding.btLista.setOnClickListener {
+        binding.aventura.setOnClickListener {
             //val intent = Intent(context, ListaProdutosFragment::class.java)
              //startActivity(intent)
 
