@@ -4,30 +4,22 @@
 
     <item
         android:id="@+id/listas"
-        android:title="Listas">
+        android:title="Menu">
         <menu>
             <group android:checkableBehavior="single">
                 <item
                     android:id="@+id/login"
-                    android:icon="@drawable/history"
+                    android:icon="@drawable/person"
                     android:title="Login"
                     app:showAsAction="always" />
-            </group>
-        </menu>
-    </item>
-    <item
-        android:id="@+id/categorias"
-        android:title="Lista">
-        <menu>
-            <group android:checkableBehavior="single">
                 <item
                     android:id="@+id/listaGrupo"
-                    android:icon="@drawable/ic_category"
+                    android:icon="@drawable/categoria"
                     android:title="Categorias" />
 
                 <item
                     android:id="@+id/listaProduto"
-                    android:icon="@drawable/favorite"
+                    android:icon="@drawable/lista"
                     android:title="Lista de Produtos"
                     app:showAsAction="always" />
 

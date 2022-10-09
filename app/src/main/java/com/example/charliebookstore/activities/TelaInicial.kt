@@ -60,7 +60,7 @@ class TelaInicial : AppCompatActivity() {
                     supportFragmentManager.beginTransaction().replace(R.id.container, frag).commit()
                 }
 
-                R.id.categorias -> {
+                R.id.imgCategorias -> {
                     //Cria uma nova instância do fragmento de lista
                     val frag = GruposFragment()
                     //Faz o gestor de fragmentos trocar o fragmento
