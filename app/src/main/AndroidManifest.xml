@@ -39,7 +39,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.TelaInicial"
+            android:name=".views.TelaInicial"
             android:exported="true"
             android:label="Charlie Bookstore">
             <intent-filter>

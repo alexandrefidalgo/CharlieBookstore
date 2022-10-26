@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/sand_dark"
-    tools:context=".fragments.GruposFragment">
+    tools:context=".views.GruposFragment">
 
     <TextView
         android:id="@+id/text_categorias"
