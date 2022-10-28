@@ -115,7 +115,7 @@ class DescricaoFragment(val idProduto: Int) : Fragment() {
 
         //Atualiza a tela com os dados do produto
         produto?.let {
-            binding.textTituloProduto.text = it.nomeProduto
+            binding.textTituloProduto.text = it.nome
             //Usado para formatação de real
             val format = NumberFormat.getCurrencyInstance(Locale("pt", "BR"))
 

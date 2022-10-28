@@ -14,6 +14,7 @@ import com.example.charliebookstore.model.Produto
 import com.example.charliebookstore.service.API
 import com.example.charliebookstore.views.DescricaoFragment
 import com.google.android.material.snackbar.Snackbar
+import com.squareup.picasso.Picasso
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -106,16 +107,16 @@ class ListaProdutosFragment() : Fragment() {
         produtos?.forEach {
             val cardBinding = ItemListaProdutoBinding.inflate(layoutInflater)
 
-            cardBinding.textTitulo.text = it.nomeProduto
+            cardBinding.textTitulo.text = it.nome
 
             //Solicita o carregamento da imagem
-            /*Picasso.get().load(
-                "https://oficinacordova.azurewebsites.net/android/rest/produto/image/${it.idProduto}"
-            ).placeholder(R.drawable.no_image).error(R.drawable.no_image).into(binding.imagem)
-            */
+            Picasso.get().load(
+                it.urlImagem
+            ).into(cardBinding.imagem)
+
 
             cardBinding.root.setOnClickListener { cardView ->
-                val descProdFrag = DescricaoFragment(it.idProduto)
+                val descProdFrag = DescricaoFragment(it.id)
                 activity?.supportFragmentManager?.beginTransaction()?.replace(R.id.container, descProdFrag)?.addToBackStack("Detalhe")?.commit()
             }
 

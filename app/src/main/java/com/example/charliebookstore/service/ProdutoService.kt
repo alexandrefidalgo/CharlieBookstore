@@ -8,12 +8,12 @@ import retrofit2.http.*
 interface ProdutoService {
 
     //USADO NO PROJETO
-    @GET("/android/rest/produtos")
+    @GET("/produtos")
     fun listar(): Call<List<Produto>>
 
     //OUTROS EXEMPLOS
     //Parâmetro de URL (ex: http://endereco.com.br/endpoint/valorId)
-    @GET("/android/rest/produto/{id}")
+    @GET("/produtos/{id}")
     fun get(@Path("id") id: Int): Call<Produto>
 
     //Outro exemplo de parâmetro de URL (ex: http://endereco.com.br/endpoint/valorNome)
