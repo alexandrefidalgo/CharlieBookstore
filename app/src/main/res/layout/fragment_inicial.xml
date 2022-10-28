@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/sand_dark"
-    tools:context=".fragments.InicialFragment">
+    tools:context=".views.InicialFragment">
 
 
     <RelativeLayout

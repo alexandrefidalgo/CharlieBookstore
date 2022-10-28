@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.view.MenuItem
 import com.example.charliebookstore.R
 import com.example.charliebookstore.databinding.ActivityTelaInicialBinding
-import com.example.charliebookstore.fragments.InicialFragment
 import com.example.charliebookstore.fragments.ListaProdutosFragment
 
 class TelaInicial : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package com.example.charliebookstore.fragments
+package com.example.charliebookstore.views
 
 import android.content.Intent
 import android.os.Bundle
