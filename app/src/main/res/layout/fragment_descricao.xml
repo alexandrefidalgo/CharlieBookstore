@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/cinza"
-    tools:context=".fragments.DescricaoFragment">
+    tools:context=".views.DescricaoFragment">
 
 
     <View
@@ -29,12 +29,10 @@
         android:textStyle="bold"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
-        android:textSize="30dp"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="@id/container_desc_produto"
         app:layout_constraintStart_toStartOf="@id/container_desc_produto"
-        app:layout_constraintTop_toTopOf="@id/container_desc_produto"
-
-        />
+        app:layout_constraintTop_toTopOf="@id/container_desc_produto" />
 
     <TextView
         android:id="@+id/text_descricao"
