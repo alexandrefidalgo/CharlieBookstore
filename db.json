@@ -1,0 +1,195 @@
+{
+  "usuario": [
+    {
+      "id": 1,
+      "nome": "pi4",
+      "email": "pi4@email.com.br",
+      "senha": "123456",
+      "cpf": "12345678912"
+    }
+  ],
+  "produto": [
+    {
+      "id": 1,
+      "nome": "Harry Poter e o Enigma do Príncipe",
+      "preco": "25,00",
+      "categoria": "ficcao",
+      "descProduto": "Harry Potter e o enigma do príncipe' dá continuidade à saga do jovem bruxo Harry Potter a partir do ponto em que o livro anterior parou o momento em que fica provado que o poder de Voldemort e dos Comensais da Morte, seus seguidores, cresce mais a cada dia, em meio à batalha entre o bem e o mal. A onda de terror provocada pelo Lorde das Trevas estaria afetando, até mesmo, o mundo dos trouxas (nãobruxos), e sendo agravada pela ação dos dementadores, criaturas mágicas aterrorizantes que 'sugam' a esperança e a felicidade das pessoas. Harry, que acabou de completar 16 anos, parte rumo ao sexto ano na Escola de Magia e Bruxaria de Hogwarts, animado e ao mesmo tempo apreensivo com a perspectiva de ter aulas particulares com o professor Dumbledore, o diretor da escola e o bruxo mais respeitado em toda comunidade mágica. Harry, longe de ser aquele menino magricela que vivia no quarto debaixo da escada na casa dos tios trouxas, é um dos principais nomes entre aqueles que lutam contra Voldemort, e se vê cada vez mais isolado à medida que os rumores de que ele é O Eleito o único capaz de derrotar o Lorde das Trevas, se espalham pelo mundo dos bruxos. Dois atentados contra a vida de estudantes, a certeza de Harry quanto ao envolvimento de Draco Malfoy com os Comensais da Morte e o comportamento de Snape, suspeito como sempre, adicionam ainda mais tensão ao já inquietante período.",
+      "urlImagem": "https://iili.io/tJFUnS.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Harry Poter e a Pedra Filosofal",
+      "preco": "25,00",
+      "categoria": "ficcao",
+      "descProduto": "Harry Potter é um garoto cujos pais, feiticeiros, foram assassinados por um poderosíssimo bruxo quando ele ainda era um bebê. Ele foi levado, então, para a casa dos tios que nada tinham a ver com o sobrenatural. Pelo contrário. Até os 10 anos, Harry foi uma espécie de gata borralheira: maltratado pelos tios, herdava roupas velhas do primo gorducho, tinha óculos remendados e era tratado como um estorvo. No dia de seu aniversário de 11 anos, entretanto, ele parece deslizar por um buraco sem fundo, como o de Alice no país das maravilhas, que o conduz a um mundo mágico. Descobre sua verdadeira história e seu destino: ser um aprendiz de feiticeiro até o dia em que terá que enfrentar a pior força do mal, o homem que assassinou seus pais. O menino de olhos verde, magricela e desengonçado, tão habituado à rejeição, descobre, também, que é um herói no universo dos magos. Potter fica sabendo que é a única pessoa a ter sobrevivido a um ataque do tal bruxo do mal e essa é a causa da marca em forma de raio que ele carrega na testa. Ele não é um garoto qualquer, ele sequer é um feiticeiro qualquer ele é Harry Potter, símbolo de poder, resistência e um líder natural entre os sobrenaturais. A fábula, recheada de fantasmas, paredes que falam, caldeirões, sapos, unicórnios, dragões e gigantes, não é, entretanto, apenas um passatempo.",
+      "urlImagem": "https://iili.io/mnBFfe.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Harry Poter e as Reliquias da Morte",
+      "preco": "25,00",
+      "categoria": "ficcao",
+      "descProduto": "Harry Potter e as relíquias da morte', de J.K. Rowling, é o sétimo e último livro da série. Voldemorte está cada vez mais forte e Harry Potter precisa encontrar e aniquilar as Horcruxes para enfraquecer o lorde e poder enfrentálo. Nessa busca desenfreada, contando apenas com os amigos Rony e Hermione, Harry descobre as Relíquias da Morte, que serão úteis na batalha do bem contra o mal.",
+      "urlImagem": "https://iili.io/mnzjDv.jpg"
+    },
+    {
+      "id": 4,
+      "nome": "Harry Poter e o Prisioneiro de Azkaban",
+      "preco": "25,00",
+      "categoria": "ficcao",
+      "descProduto": "As aulas estão de volta à Hogwarts e Harry Potter não vê a hora de embarcar no expresso a vapor que o levará de volta à escola de bruxaria. Mais uma vez suas férias na rua dos Alfeneiros foi triste e solitária. Com muita ação, humor e magia, 'Harry Potter e o prisioneiro de Azkaban' traz de volta o gigante atrapalhado Rúbeo Hagrid, o sábio diretor Alvo Dumbledore, a exigente professora de transformação Minerva MacGonagall e o novo mestre Lupin, que guarda grandes surpresas para Harry.",
+      "urlImagem": "https://iili.io/mnTBG2.jpg"
+    },
+    {
+    "id": 5,
+    "nome": "Como eu era antes de você",
+    "preco": "36,00",
+    "categoria": "romance",
+    "descProduto": "Aos 26 anos, Louisa Clark não tem muitas ambições. Ela mora com os pais, a irmã mãe solteira, o sobrinho pequeno e um avô que precisa de cuidados constantes desde que sofreu um derrame. Trabalha como garçonete num café, um emprego que não paga muito, mas ajuda nas despesas, e namora Patrick, um triatleta que não parece interessado nela. Não que ela se importe. Quando o café fecha as portas, Lou é obrigada a procurar outro emprego. Sem muitas qualificações, consegue trabalho como cuidadora de um tetraplégico. Will Traynor, de 35 anos, é inteligente, rico e mal-humorado. Preso a uma cadeira de rodas depois de um acidente de moto, o antes ativo e esportivo Will desconta toda a sua amargura em quem estiver por perto. Tudo parece pequeno e sem graça para ele, que sabe exatamente como dar um fim a esse sentimento. O que Will não sabe é que Lou está prestes a trazer cor a sua vida. E nenhum dos dois desconfia de que irá mudar para sempre a história um do outro.",
+    "urlImagem": "https://iili.io/yuYXzG.jpg"
+    },
+    {
+    "id": 6,
+    "nome": "A culpa é das estrelas",
+    "preco": "30,00",
+    "categoria": "romance",
+    "descProduto": "Hazel é uma paciente terminal. Ainda que, por um milagre da medicina, seu tumor tenha encolhido bastante — o que lhe dá a promessa de viver mais alguns anos —, o último capítulo de sua história foi escrito no momento do diagnóstico. Mas em todo bom enredo há uma reviravolta, e a de Hazel se chama Augustus Waters, um garoto bonito que certo dia aparece no Grupo de Apoio a Crianças com Câncer. Juntos, os dois vão preencher o pequeno infinito das páginas em branco de suas vidas. Inspirador, corajoso, irreverente e brutal, A culpa é das estrelas é a obra mais ambiciosa e emocionante de John Green, sobre a alegria e a tragédia que é viver e amar.",
+    "urlImagem": "https://iili.io/H9T53kQ.jpg"
+    },
+    {
+    "id": 7,
+    "nome": "P.S. Eu Te Amo",
+    "preco": "32,00",
+    "categoria": "romance",
+    "descProduto": "Gerry e Holly eram namorados de infância e ficariam juntos para sempre, até que o inimaginável acontece e Gerry morre, deixando-a devastada. Conforme seu aniversário de 30 anos se aproxima, Holly descobre um pacote de cartas nas quais Gerry, gentilmente, a guia em sua nova vida sem ele. Com ajuda de seus amigos e de sua família barulhenta e carinhosa, Holly consegue rir, chorar, cantar, dançar e ser mais corajosa do que nunca.",
+    "urlImagem": "https://iili.io/H9T7lDB.jpg"
+    },
+    {
+    "id": 8,
+    "nome": "Simplismente Acontece",
+    "preco": "30,00",
+    "categoria": "romance",
+    "descProduto": "Você acha que é possível existir amizade verdadeira entre um homem e uma mulher? O que acontece quando duas pessoas que foram feitas uma para a outra simplesmente não conseguem ficar juntas? Desde crianças, Rosie e Alex viviam juntos. Todo mundo achava que eles tinham nascido para ser um casal. Todo mundo menos eles mesmos. Grandes amigos desde criança, eles se separaram na adolescência, quando Alex se mudou com sua família de Dublin para os Estados Unidos.",
+    "urlImagem": "https://iili.io/H9TYKs1.jpg"
+    },
+    {
+    "id": 9,
+    "nome": "Verity",
+    "preco": "30,00",
+    "categoria": "romance",
+    "descProduto": "O amor é capaz de superar a pior das verdades? Verity Crawford é a autora best-seller por trás de uma série de sucesso. Ela está no auge de sua carreira, aclamada pela crítica e pelo público, no entanto, um súbito e terrível acidente acaba interrompendo suas atividades, deixando-a sem condições de concluir a história... E é nessa complexa circunstância que surge Lowen Ashleigh, uma escritora à beira da falência convidada a escrever, sob um pseudônimo, os três livros restantes da já consolidada série.",
+    "urlImagem": "https://iili.io/H9TY6EF.jpg"
+    },
+    {
+    "id": 10,
+    "nome": "Guerra Civil",
+    "preco": "20,00",
+    "categoria": "hq",
+    "descProduto": "Os heróis da Marvel invadiram as páginas dos livros em incríveis romances para quem sempre amou esse universo (e também para quem nunca abriu uma HQ na vida). A épica história que provoca a separação do Universo Marvel! Homem de Fe rro e Capitão América: dois membros essenciais para os Vingadores, a maior equipe de super-heróis do mundo. Quando uma trágica batalha deixa um buraco na cidade de Stamford, matando centenas de pessoas, o governo americano exige que todos os super-he róis revelem sua identidade e registrem seus poderes. Para Tony Stark – o Homem de Ferro – é um passo lamentável, porém necessário, o que o leva a apoiar a lei. Para o Capitão América, é uma intolerável agressão à liberdade cívica. Assim começa a Guerra Civil .",
+    "urlImagem": "https://iili.io/H9M7ae4.jpg"
+    },
+    {
+    "id": 11,
+    "nome": "Batman",
+    "preco": "18,00",
+    "categoria": "hq",
+    "descProduto": "Seja enfrentando um maligno produtor de televisão, um clássico inimigo aliado a uma furiosa viúva, um doido aficionado por ovos ou sua própria e precoce aposentadoria, o Homem-Morcego – e seu inseparável amigo Robin – nunca perde o humor! Da mesma forma, o leitor não vai conseguir tirar o sorriso do rosto com mais esse volume da série que adapta a clássica série de tevê para os quadrinhos",
+    "urlImagem": "https://iili.io/H9MW4mF.jpg"
+    },
+    {
+    "id": 12,
+    "nome": "The Walking Dead",
+    "preco": "19,00",
+    "categoria": "hq",
+    "descProduto": "Após um acidente de trabalho no qual Rick leva um tiro e entra em coma, ele acorda no hospital estranhamente vazio. Destrancando portas que não deveriam ser abertas nunca, o xerife se encontra numa cidade abandonada com seres em decomposição, mas que parecem vivos. E onde estão as outras pessoas? E onde está a sua família? O que aconteceu?",
+    "urlImagem": "https://iili.io/H9MhVte.jpg"
+    },
+    {
+    "id": 13,
+    "nome": "Homem de Ferro",
+    "preco": "29,00",
+    "categoria": "hq",
+    "descProduto": "Tony Stark ludibriou Norman Osborn, o humilhou ao vivo na televisão e manteve a salvo o banco de dados que lista as identidades secretas de super-humanos. Mas, ao fazer isso, ele perdeu tudo: sua armadura, seus poderes e até mesmo sua mente. Agora, totalmente indefeso, em coma e com sua vida desmantelada, Tony dependerá de seus últimos traços de determinação e um grupo de amigos – incluindo Thor, Capitão América, Máquina de Combate, Doutor Estranho, Pepper Potts e Maria Hill – para impedir que ele perca tudo!",
+    "urlImagem": "https://iili.io/H9Mw43v.jpg"
+    },
+    {
+    "id": 14,
+    "nome": "Homem Aranha",
+    "preco": "27,00",
+    "categoria": "hq",
+    "descProduto": "O aranha e o deadpool vão formar uma parceria entre duas eras. no presente, eles são atacados por uma horda de cópias do deadpool - já no futuro, os velhos parker e wilson têm seus próprios problemas. essas duas linhas do tempo vão colidir, cortesia do clonepool. quem é ele? o que é ele? e de onde ele veio?",
+    "urlImagem": "https://iili.io/H9MktR4.jpg"
+    },
+    {
+    "id": 15,
+    "nome": "A Hora do Pesadelo",
+    "preco": "27,00",
+    "categoria": "terror",
+    "descProduto": "Eu tinha pesadelos quando era criança. Uma noite, pedi para minha mãe entrar comigo nos meus sonhos para manter o bicho-papão afastado. Ela respondeu [...] que o sono era o único lugar no qual todos nós precisávamos ir sozinhos”. Assim, Wes Craven começa a descrever a gênese do filme que há mais de trinta anos faz muita gente grande dormir de luz acesa: A HORA DO PESADELO",
+    "urlImagem": "https://iili.io/H9MDXv2.jpg"
+    },
+    {
+    "id": 16,
+    "nome": "Sexta Feira 13",
+    "preco": "32,00",
+    "categoria": "terror",
+    "descProduto": "As páginas da nova edição de SEXTA-FEIRA 13 [ARQUIVOS DE CRYSTAL LAKE] - BLOODY EDITION estão cheias de sangue! E isso não é uma força de expressão. As manchas vermelhas foram pintadas à mão, o que faz de cada livro um exemplar único, digno de colecionador. O autor disseca os segredos por trás do filme de 1980, que deu origem ao assassino com a maior contagem de corpos do cinema Slasher: o imortal Jason Vorhees. O homem por trás da máscara está de volta, mais sangrento do que nunca.SEXTA-FEIRA 13 [ARQUIVOS DE CRYSTAL LAKE] - BLOODY EDITION traz fotos inéditas e centenas de depoimentos dos atores, membros da equipe e de fãs que também se destacaram no mundo do terror. ",
+    "urlImagem": "https://iili.io/H9MbdZX.jpg"
+    },
+    {
+    "id": 17,
+    "nome": "It",
+    "preco": "30,00",
+    "categoria": "terror",
+    "descProduto": "Durante as férias de 1958, em uma pacata cidadezinha chamada Derry, um grupo de sete amigos começa a ver coisas estranhas. Um conta que viu um palhaço, outro que viu uma múmia. Finalmente, acabam descobrindo que estavam todos vendo a mesma coisa: um ser sobrenatural e maligno que pode assumir várias formas. É assim que Bill, Beverly, Eddie, Ben, Richie, Mike e Stan enfrentam a Coisa pela primeira vez. Quase trinta anos depois, o grupo volta a se encontrar. Mike, o único que permaneceu em Derry, dá o sinal — uma nova onda de terror tomou a pequena cidade. É preciso unir forças novamente. Só eles têm a chave do enigma. Só eles sabem o que se esconde nas entranhas de Derry. Só eles podem vencer a Coisa.",
+    "urlImagem": "https://iili.io/H9My0Al.jpg"
+    },
+    {
+    "id": 18,
+    "nome": "Cemitério Maldito",
+    "preco": "27,00",
+    "categoria": "terror",
+    "descProduto": "Em 1983, Stephen King, o autor de It: A Coisa, publicou o livro que ele mesmo considera o mais assustador de toda a sua carreira: O Cemitério. Assim como diversas obras do escritor, O Cemitério também foi adaptada para os cinemas, e o resultado chega às telonas em 9 de maio, com o filme Cemitério Maldito. A trama gira em torno da família Creed, que se muda para uma propriedade rural e se surpreende com um misterioso cemitério de animais perto da casa. Quando o gato dos Creed morre de forma trágica, eles descobrem que as coisas que são enterradas no cemitério voltam à vida, mas de uma maneira diferente. Nada é o que parece: às vezes estar morto pode ser melhor.",
+    "urlImagem": "https://iili.io/H9V9o0u.jpg"
+    },
+    {
+    "id": 19,
+    "nome": "A Casa Mal Assombrada",
+    "preco": "25,00",
+    "categoria": "terror",
+    "descProduto": "Este livro reúne três contos que compartilham de um mesmo conceito: foram escritos por autoras do século XIX e tratam de casas mal-assombradas. O Mistério da Casa Geminada, de Edith Nesbit, narra a história de dois jovens amantes cujo relacionamento é reprovado por todos, quando, certo dia, ele terá uma terrível visão enquanto visita a mansão dela; teria sido uma estranha premonição? Já A Glicínia Gigante, de Charlotte Perkins Gilman, evoca seu famoso conto de terror, “O Papel de Parede Amarelo”, no qual a casa é uma metáfora para a opressão masculina característica daquele período. Por fim, uma joia rara, A Casa no Campo de Papoulas, de Marjorie Bowen, texto inédito em português com uma narrativa onírica digna dos melhores contos da ficção weird. O prefácio é assinado pela autora Mia Sardini (Quarto 502, As Vozes Sombrias de Irena, Revista Ledos Medos). Tradução, seleção e organização por Matheus Peixoto (Memórias de um Cavaleiro Melancólico).",
+    "urlImagem": "https://iili.io/H9VHKYJ.jpg"
+    },
+    {
+    "id": 20,
+    "nome": "Enola Holmes",
+    "preco": "25,00",
+    "categoria": "aventura",
+    "descProduto": "Entre disfarces e fugas, a irmã de Sherlock Holmes vai nos mostrar que o sangue investigativo também faz parte dela. Mas será que Enola será capaz de decodificar as pistas necessárias e finalmente encontrar sua mãe? Em Enola Holmes: O caso do marquês desaparecido, Enola Holmes — irmã do famoso detetive Sherlock Holmes — descobre no dia de seu aniversário de catorze anos que sua mãe desapareceu. Por conta dessa descoberta, ela embarca em uma viagem a Londres em busca de pistas que indiquem o paradeiro da mãe. Mas nada poderia preparar Enola para o que a espera na cidade grande.",
+    "urlImagem": "https://iili.io/H98kWmB.jpg"
+    }
+  ],
+  "categoria": [
+    {
+      "categoriaId": "1",
+      "nome": "ficcao"
+    },
+    {
+      "categoriaId": "2",
+      "nome": "romance"
+    },
+    {
+      "categoriaId": "3",
+      "nome": "hq"
+    },
+    {
+      "categoriaId": "4",
+      "nome": "terror"
+    },
+    {
+      "categoriaId": "5",
+      "nome": "aventura"
+    }
+  ]
+}
