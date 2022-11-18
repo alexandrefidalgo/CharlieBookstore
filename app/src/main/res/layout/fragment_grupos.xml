@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/sand_dark"
-    tools:context=".views.GruposFragment">
+    tools:context=".views.fragment.GruposFragment">
 
     <TextView
         android:id="@+id/text_categorias"
@@ -80,35 +80,6 @@
                         android:layout_width="120dp"
                         android:layout_height="match_parent"
                         android:src="@drawable/harry_potter_e_a_pedra_filosofal"
-                        android:layout_gravity="end"/>
-
-                </androidx.cardview.widget.CardView>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="10dp" />
-
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/card_aventura"
-                    android:layout_width="match_parent"
-                    android:layout_height="120dp"
-                    app:cardBackgroundColor="@color/brown_light"
-                    app:cardCornerRadius="20dp"
-                    app:cardElevation="0dp"
-                    android:paddingTop="15dp">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:paddingHorizontal="20dp"
-                        android:textSize="25dp"
-                        android:text="Aventura"
-                        android:textColor="@color/white"
-                        android:textStyle="bold" />
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="match_parent"
-                        android:src="@drawable/hobbit"
                         android:layout_gravity="end"/>
 
                 </androidx.cardview.widget.CardView>

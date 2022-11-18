@@ -1,4 +1,4 @@
-package com.example.charliebookstore.fragments
+package com.example.charliebookstore.views.fragment
 
 import android.os.Bundle
 import android.util.Log
@@ -7,18 +7,15 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.charliebookstore.R
-import com.example.charliebookstore.databinding.FragmentDescricaoBinding
 import com.example.charliebookstore.databinding.FragmentListaProdutosBinding
 import com.example.charliebookstore.databinding.ItemListaProdutoBinding
 import com.example.charliebookstore.model.Produto
 import com.example.charliebookstore.service.API
-import com.example.charliebookstore.views.DescricaoFragment
 import com.google.android.material.snackbar.Snackbar
 import com.squareup.picasso.Picasso
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import java.util.*
 
 //O parâmetro indica o id do produto a exibir
 class ListaProdutosFragment() : Fragment() {
@@ -49,7 +46,7 @@ class ListaProdutosFragment() : Fragment() {
 
     //Customiza o visual da atividade e habilita o pressionamento do botão up
     fun alterarVisual() {
-        activity?.title = "Detalhe do Produto"
+        activity?.title = "Lista de Produtos"
         setHasOptionsMenu(true)
     }
 

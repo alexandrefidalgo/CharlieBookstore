@@ -1,13 +1,11 @@
-package com.example.charliebookstore.views
+package com.example.charliebookstore.views.fragment
 
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
-import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.charliebookstore.R
 import com.example.charliebookstore.databinding.FragmentDescricaoBinding
 import com.example.charliebookstore.model.Produto
 import com.example.charliebookstore.service.API

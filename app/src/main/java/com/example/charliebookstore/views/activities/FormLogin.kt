@@ -6,7 +6,10 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import com.example.charliebookstore.R
-import com.example.charliebookstore.views.TelaInicial
+import com.example.charliebookstore.views.activities.TelaInicial
+import com.example.charliebookstore.views.activities.FormCadastrar
+import com.example.charliebookstore.views.activities.FormRecuperarSenha
+import com.example.charliebookstore.views.activities.PoliticasPrivacidade
 
 class FormLogin : AppCompatActivity(){
 

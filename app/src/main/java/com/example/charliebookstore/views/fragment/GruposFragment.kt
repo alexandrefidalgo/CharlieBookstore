@@ -1,4 +1,4 @@
-package com.example.charliebookstore.views
+package com.example.charliebookstore.views.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,10 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.charliebookstore.R
 import com.example.charliebookstore.databinding.FragmentGruposBinding
-import com.example.charliebookstore.fragments.ListaProdutosFragment
+import java.util.*
 
-
-class GruposFragment : Fragment() {
+class GruposFragment : Fragment(){
 
     lateinit var binding: FragmentGruposBinding
 

@@ -1,4 +1,4 @@
-package com.example.charliebookstore.views
+package com.example.charliebookstore.views.fragment
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,7 +7,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.charliebookstore.R
-import com.example.charliebookstore.activities.FormLogin
 import com.example.charliebookstore.databinding.FragmentInicialBinding
 
 class InicialFragment : Fragment() {

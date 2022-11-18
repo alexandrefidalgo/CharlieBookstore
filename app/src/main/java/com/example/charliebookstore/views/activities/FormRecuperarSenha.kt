@@ -1,12 +1,12 @@
-package com.example.charliebookstore.activities
+package com.example.charliebookstore.views.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.charliebookstore.R
 
-class PoliticasPrivacidade : AppCompatActivity() {
+class FormRecuperarSenha : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_politicas_privacidade)
+        setContentView(R.layout.activity_form_recuperar_senha)
     }
 }

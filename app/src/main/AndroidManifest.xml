@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.charliebookstore">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -13,12 +13,30 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:usesCleartextTraffic="true"
         android:theme="@style/Theme.CharlieBookstore"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
+        <service
+            android:name=".UsuarioService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
 
         <activity
-            android:name=".views.TelaInicial"
+            android:name=".views.activities.FormLogin"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".views.activities.TelaInicial"
             android:exported="true"
             android:label="Charlie Bookstore">
             <intent-filter>
@@ -32,7 +50,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".activities.PoliticasPrivacidade"
+            android:name=".views.activities.PoliticasPrivacidade"
             android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
@@ -45,7 +63,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.FormCadastrar"
+            android:name=".views.activities.FormCadastrar"
             android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
@@ -58,7 +76,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.FormLogin"
+            android:name=".views.activities.FormRecuperarSenha"
             android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
@@ -70,20 +88,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".activities.FormRecuperarSenha"
-            android:exported="true">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.example.charliebookstore.views
+package com.example.charliebookstore.views.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.ActionBarDrawerToggle
@@ -6,7 +6,9 @@ import android.os.Bundle
 import android.view.MenuItem
 import com.example.charliebookstore.R
 import com.example.charliebookstore.databinding.ActivityTelaInicialBinding
-import com.example.charliebookstore.fragments.ListaProdutosFragment
+import com.example.charliebookstore.views.fragment.ListaProdutosFragment
+import com.example.charliebookstore.views.fragment.GruposFragment
+import com.example.charliebookstore.views.fragment.InicialFragment
 
 class TelaInicial : AppCompatActivity() {
     lateinit var binding: ActivityTelaInicialBinding
