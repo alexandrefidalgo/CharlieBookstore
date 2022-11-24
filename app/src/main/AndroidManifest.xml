@@ -16,14 +16,9 @@
         android:theme="@style/Theme.CharlieBookstore"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
-        <service
-            android:name=".UsuarioService"
-            android:enabled="true"
-            android:exported="true">
-        </service>
 
         <activity
-            android:name=".views.activities.FormLogin"
+            android:name=".activities.FormLogin"
             android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
