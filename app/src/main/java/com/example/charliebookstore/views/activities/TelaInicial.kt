@@ -40,7 +40,7 @@ class TelaInicial : AppCompatActivity() {
 
             when(it.itemId) {
                 //Se clicou no menu com ID "inicial"
-                R.id.login -> {
+                R.id.minhasCompras -> {
                     //Cria uma nova instância do fragmento de inicial
                     val frag = InicialFragment()
                     //Faz o gestor de fragmentos trocar o fragmento

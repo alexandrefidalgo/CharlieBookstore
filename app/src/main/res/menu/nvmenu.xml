@@ -8,9 +8,9 @@
         <menu>
             <group android:checkableBehavior="single">
                 <item
-                    android:id="@+id/login"
-                    android:icon="@drawable/person"
-                    android:title="Login"
+                    android:id="@+id/minhasCompras"
+                    android:icon="@drawable/shopping"
+                    android:title="Minhas Compras"
                     app:showAsAction="always" />
                 <item
                     android:id="@+id/listaGrupo"
